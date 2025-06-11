@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-
         <div class="sidebar">
             <div class="sidebar-nav-top">
                 <img width="40px" src="dashboard.svg" alt="dashboard" class="svg-filter"><div class="home">Dashboard</div>
@@ -19,7 +18,7 @@
                 <img width="20px" src="messages.svg" alt="messages" class="svg-filter"><div class="messages"><a class="header-link" href="url">Message</a></div>
                 <img width="20px" src="history.svg" alt="history" class="svg-filter"><div class="history"><a class="header-link" href="url">History</a></div>
                 <img width="20px" src="tasks.svg" alt="tasks" class="svg-filter"><div class="tasks"><a class="header-link" href="url">Tasks</a></div>
-                <img width="20px" src="community.svg" alt="community" class="svg-filter"><div class="communities"><a class="header-link" href="url">Community</a></div>
+                <img width="20px" src="community.svg" alt="community" class="svg-filter"><div class="community"><a class="header-link" href="url">Community</a></div>
             </div>
             <div class="sidebar-branding">
                 <img width="20px" src="settings.svg" alt="settings" class="svg-filter"><div class="settings"><a class="header-link" href="url">Settings</a></div>
@@ -34,7 +33,7 @@
                     <form action="./search/" id="search-form">
                         <input class="search-bar" type="search" id="search" name="search">  
                     </form>
-                    <button class="head-main-buttons bell-button"><div class="bell"><img width="20px" src="bell.svg" alt="bell" class="svg-filter"></div></button>
+                    <button class="bell-button head-main-buttons"><div class="bell"><img width="20px" src="bell.svg" alt="bell" class="svg-filter"></div></button>
                     <div class="pic"><img src="cat-small.png" alt="cat-avatar-smaller" class="header-cat-small"></div>
                     <div class="text">Fabian Newgate</div>
             </div>
@@ -43,9 +42,9 @@
                     <div class="welcome-image"><img src="cat.png" alt="cat-avatar"></div>
                     <div class="header-welcome-text-intro header-pic"><a class="header-profile-link" href="url">Hi there,<p class="welcome-text-end header-pic">Fabian Newgate(@fabian)</a></p></div>
                 </div>
-                <button class="new header-button"><a class="header-main-buttons" href="url">new</a></button>
-                <button class="upload header-button"><a  class="header-main-buttons" href="url">upload</a></button>
-                <button class="share header-button"><a class="header-main-buttons" href="url">share</a></button>                
+                <a class="header-main-buttons" href="url"><button class="new header-button">new</button></a>
+                <a class="header-main-buttons" href="url"><button class="upload header-button">upload</button></a>
+                <a class="header-main-buttons" href="url"><button class="share header-button">share</button></a>                
             </div>
         </div>
         <main class="main-container">
@@ -131,25 +130,25 @@
                     <div class="trending-container">
                         <div class="trending-flexbox-1">
                             <div class="trending-pic-div">
-                                <div class="welcome-image"><img src="cat-small.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-image"><img class="trending-cat-small" src="cat-small.png" alt="cat-avatar-smaller"></div>
                                 <div class="welcome-text-intro header-pic trending-avatar-style">@fabian <p class="welcome-text-end header-pic trending-phrase">the best overlay <a class="trending-link" href="url">115 watching</a><p></div>
                             </div>
                         </div>
                         <div class="trending-flexbox-1">
                             <div class="trending-pic-div">
-                                <div class="welcome-image"><img class="frog" src="frog.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-image"><img class="frog" src="frog.png" alt="frog"></div>
                                 <div class="welcome-text-intro header-pic trending-avatar-style">@agnes <p class="welcome-text-end header-pic trending-phrase">blocking all ads <a class="trending-link" href="url">36 watching</a></p></div>
                             </div>
                         </div>
                         <div class="trending-flexbox-1">
                             <div class="trending-pic-div">
-                                <div class="welcome-image"><img src="penguin.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-image"><img class="penguin" src="penguin.png" alt="penguin"></div>
                                 <div class="welcome-text-intro header-pic trending-avatar-style">@naima <p class="welcome-text-end header-pic trending-phrase">debug made anew <a class="trending-link" href="url">178 watching</a></p></div>
                             </div>
                         </div>
                         <div class="trending-flexbox-1">
                             <div class="trending-pic-div">
-                                <div class="welcome-image"><img src="walrus.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-image"><img class="penguin" src="walrus.png" alt="walrus"></div>
                                 <div class="welcome-text-intro header-pic trending-avatar-style">@steve <p class="welcome-text-end header-pic trending-phrase">just a walrus <a class="trending-link" href="url">1000+ watching</a></p></div>
                             </div>
                         </div>
