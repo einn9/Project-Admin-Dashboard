@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,37 +12,40 @@
 
         <div class="sidebar">
             <div class="sidebar-nav-top">
-                <div class="home"><img width="40px" src="dashboard.svg" alt="dashboard" class="svg-filter">Dashboard</div>
+                <img width="40px" src="dashboard.svg" alt="dashboard" class="svg-filter"><div class="home">Dashboard</div>
             </div>
             <div class="sidebar-nav">
-                <div class="profile"><img width="30px" src="profile.svg" alt="proflie" class="svg-filter">Profile</div>
-                <div class="messages"><img width="10px" src="messages.svg" alt="messages" class="svg-filter">message</div>
-                <div class="history"><img width="10px" src="history.svg" alt="history" class="svg-filter">history</div>
-                <div class="tasks"><img width="10px" src="tasks.svg" alt="tasks" class="svg-filter">tasks</div>
-                <div class="communities"><img width="10px" src="community.svg" alt="community" class="svg-filter">community</div>
+                <img width="20px" src="profile.svg" alt="profile" class="svg-filter"><div class="profile"><a class="header-link" href="url">Profile</a></div>
+                <img width="20px" src="messages.svg" alt="messages" class="svg-filter"><div class="messages"><a class="header-link" href="url">Message</a></div>
+                <img width="20px" src="history.svg" alt="history" class="svg-filter"><div class="history"><a class="header-link" href="url">History</a></div>
+                <img width="20px" src="tasks.svg" alt="tasks" class="svg-filter"><div class="tasks"><a class="header-link" href="url">Tasks</a></div>
+                <img width="20px" src="community.svg" alt="community" class="svg-filter"><div class="communities"><a class="header-link" href="url">Community</a></div>
             </div>
             <div class="sidebar-branding">
-                <div class="settings"><img width="10px" src="settings.svg" alt="settings" class="svg-filter">settings</div>
-                <div class="support"><img width="10px" src="help.svg" alt="help" class="svg-filter">support</div>
-                <div class="privacy"><img width="10px" src="privacy.svg" alt="privacy" class="svg-filter">privacy</div>
+                <img width="20px" src="settings.svg" alt="settings" class="svg-filter"><div class="settings"><a class="header-link" href="url">Settings</a></div>
+                <img width="20px" src="privacy.svg" alt="privacy" class="svg-filter"><div class="privacy"><a class="header-link" href="url">Privacy</a></div>
+                <img width="20px" src="assistance.svg" alt="assistance" class="svg-filter"><div class="assitance"><a class="header-link" href="url">Assistance</a></div>
             </div>
+            <footer class="sidebar-footer"><a class="footer-link" href="https://www.flaticon.com/authors/darius-dan" title="shark icons">Icons created by Darius Dan - Flaticon</a></footer>
         </div>
         <div class="header">
             <div class="header-upper-part">
-                <button type="submit" form="search-form" class="magnifier-button"><div class="magnifier"><img width="30px" src="search.svg" alt="search" class="svg-filter"></div></button>
+                <button type="submit" form="search-form" class="magnifier-button head-main-buttons"><div class="magnifier"><img width="24px" src="search.svg" alt="search" class="svg-filter"></div></button>
                     <form action="./search/" id="search-form">
                         <input class="search-bar" type="search" id="search" name="search">  
                     </form>
-                <div class="bell"><img width="30px" src="bell.svg" alt="bell" class="svg-filter"></div>
-                <div class="pic"><img src="cat.png" alt="cat-avatar"></div>
-                <div class="text">Morgan Oakly</div>
+                    <button class="head-main-buttons bell-button"><div class="bell"><img width="20px" src="bell.svg" alt="bell" class="svg-filter"></div></button>
+                    <div class="pic"><img src="cat-small.png" alt="cat-avatar-smaller" class="header-cat-small"></div>
+                    <div class="text">Fabian Newgate</div>
             </div>
             <div class="header-main-part">
-                <div class="pic"><img src="cat.png" alt="cat-avatar"></div>
-                <div class="text">Hi there, Morgan Oakley(@morgan)</div>
-                <button class="new header-button">new</button>
-                <button class="upload header-button">upload</button>
-                <button class="share header-button">share</button>                
+                <div class="pic">
+                    <div class="welcome-image"><img src="cat.png" alt="cat-avatar"></div>
+                    <div class="header-welcome-text-intro header-pic"><a class="header-profile-link" href="url">Hi there,<p class="welcome-text-end header-pic">Fabian Newgate(@fabian)</a></p></div>
+                </div>
+                <button class="new header-button"><a class="header-main-buttons" href="url">new</a></button>
+                <button class="upload header-button"><a  class="header-main-buttons" href="url">upload</a></button>
+                <button class="share header-button"><a class="header-main-buttons" href="url">share</a></button>                
             </div>
         </div>
         <main class="main-container">
@@ -50,79 +54,104 @@
                 <div class="article-container">
                     <div class="cards">
                         <p class="title">Landing Page</p>
-                        <p class="content">A very aesthetic HTML page.</p>
-                        <img width="30px" src="love.svg" alt="love" class="svg-filter">
-                        <img width="30px" src="look.svg" alt="look" class="svg-filter">
-                        <img width="30px" src="download.svg" alt="download" class="svg-filter">
+                        <p class="content">A very aesthetic HTML page. Best looking project so far.</p>
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                     <div class="cards">
                         <p class="title">Calculator</p>
-                        <p class="content">Simple calculator using JavaScript.</p>
+                        <p class="content">Simple calculator using JavaScript. Always useful stuff.</p>
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                     <div class="cards">
                         <p class="title">Sign-up form</p>
-                        <p class="content">Learning to work with HTML forms.</p>
-                        <img width="30px" src="love.svg" alt="love" class="svg-filter">
-                        <img width="30px" src="look.svg" alt="look" class="svg-filter">
-                        <img width="30px" src="download.svg" alt="download" class="svg-filter">
+                        <p class="content">Working with HTML forms. They are very common. </p>
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                     <div class="cards">
                         <p class="title">Rock-Paper-Scissors</p>
-                        <p class="content">Play rock-paper-scissors live versus the computer.</p>
+                        <p class="content">Play RPS live versus the computer. No, it doesn't cheat.</p>
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                     <div class="cards">
                         <p class="title">Recipes</p>
                         <p class="content">Very simple recipes with very simple HTML.</p>
-                        <img width="30px" src="love.svg" alt="love" class="svg-filter">
-                        <img width="30px" src="look.svg" alt="look" class="svg-filter">
-                        <img width="30px" src="download.svg" alt="download" class="svg-filter">
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                     <div class="cards">
                         <p class="title">Etch-a-Sketch</p>
-                        <p class="content">Simulating etch-a-sketch with mostly JavaScript.</p>
+                        <p class="content">Simulating etch-a-sketch with JavaScript.</p>
+                        <div class="card-buttons-flex">
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="love.svg" alt="love" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="look.svg" alt="look" class="svg-filter"></button></a>
+                            <a class="card-main-buttons" href="url"><button class="heart-button"><img width="30px" src="download.svg" alt="download" class="svg-filter"></button></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="announcement">
-                <h1 class="intro-text">Announcements</h1>
+                <h1 class="intro-text announce-intro-text">Announcements</h1>
                 <div class="announcement-container">
-                    <div class="maintenance announce-intro">Site Maintenance
-                        <p class="announce-text">dasdasdsadsad</p>
+                    <div class="maintenance-announce-div with-bottom-border">
+                        <p class="announce-intro">HTML & CSS intermediate is over.</p>
+                        <p class="announce-text">That's right! It's time to delve into JavaScript once again, are you ready to discover the beautiful new things you are able to do?</p>
                     </div>
-                    <div class="share announce-intro">Community Share Day
-                        <p class="announce-text">dasdasdsadsad</p>
+                    <div class="maintenance-announce-div with-bottom-border">
+                        <p class="announce-intro">Remember to stay healthy</p>
+                        <p class="announce-text">Always get plenty of sleep, stretch, take every 20 minutes to get out of your chair and move, take walks every day, express gratitude, and enjoy every day like it's your last.</p>
                     </div>
-                    <div class="privacy announce-intro">Updated Privacy Policy
-                        <p class="announce-text">dasdasdsadsad</p>
+                    <div class="maintenance-announce-div">
+                        <p class="announce-intro">Walrus Day</p>
+                        <p class="announce-text">Did you know it's officially the day of the walrus? Yeah, I bet you didn't. The walrus is one of the most interesting animals out there, known most commonly for benching 300 pounds with one arm.</p>
                     </div>
                 </div>
             </div>
             <div class="trending">
                 <ul>
-                    <h1 class="intro-text">Trending</h1>
+                    <h1 class="intro-text trending-intro-text">Trending</h1>
                     <div class="trending-container">
                         <div class="trending-flexbox-1">
-                            <div class="cat"><img src="cat.png"  alt="cat-avatar"></div>
-                            <p class="tegan-p">@tegan</p>
-                            <p class="tegan-p">world peace builder</p>
+                            <div class="trending-pic-div">
+                                <div class="welcome-image"><img src="cat-small.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-text-intro header-pic trending-avatar-style">@fabian <p class="welcome-text-end header-pic trending-phrase">the best overlay <a class="trending-link" href="url">115 watching</a><p></div>
+                            </div>
                         </div>
                         <div class="trending-flexbox-1">
-                            <div class="tegan"><img width="30px" src="download.svg"  alt="cat-avatar"></div>
-                                <p>@morgan</p>
-                                <p>super cool project</p>
-                            </li>
+                            <div class="trending-pic-div">
+                                <div class="welcome-image"><img class="frog" src="frog.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-text-intro header-pic trending-avatar-style">@agnes <p class="welcome-text-end header-pic trending-phrase">blocking all ads <a class="trending-link" href="url">36 watching</a></p></div>
+                            </div>
                         </div>
                         <div class="trending-flexbox-1">
-                            <div class="tegan"><img width="30px" src="download.svg"  alt="cat-avatar"></div>
-                                <p>@kendall</p>
-                                <p>Life Changing App</p>
-                            </li>
+                            <div class="trending-pic-div">
+                                <div class="welcome-image"><img src="penguin.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-text-intro header-pic trending-avatar-style">@naima <p class="welcome-text-end header-pic trending-phrase">debug made anew <a class="trending-link" href="url">178 watching</a></p></div>
+                            </div>
                         </div>
                         <div class="trending-flexbox-1">
-                            <div class="tegan"><img width="30px" src="download.svg"  alt="cat-avatar"></div>
-                                <p>@walrus</p>
-                                <p>just a walrus</p>
-                            </li>
+                            <div class="trending-pic-div">
+                                <div class="welcome-image"><img src="walrus.png" alt="cat-avatar-smaller"></div>
+                                <div class="welcome-text-intro header-pic trending-avatar-style">@steve <p class="welcome-text-end header-pic trending-phrase">just a walrus <a class="trending-link" href="url">1000+ watching</a></p></div>
+                            </div>
                         </div>
                     </div>
                 </ul>
