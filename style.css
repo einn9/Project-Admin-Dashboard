@@ -171,7 +171,6 @@ form > .search-bar {
     width: 5rem;
     height: 1.5rem;
     border-radius: 1rem;
-    color: #F7F0DF;
     border: none;
     font-size: 1rem;
     font-family: 'rainyhearts', Arial;
@@ -358,6 +357,10 @@ h1.trending-intro-text {
 .header-main-buttons {
     color: #F7F0DF;
     text-decoration: none;
+}
+
+.header-main-buttons:hover {
+    color: #131212;
 }
 
 .trending-link, .header-profile-link {
